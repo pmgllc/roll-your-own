@@ -12,18 +12,28 @@ Adds a theme-dependent area to add functions that must be preserved if the theme
 
 == Description ==
 
-Protect your dashboard with a game-changing authorization code. The login form will never be the same again.
+Adds a theme-dependent area to add functions that must be preserved if the theme is changed (i.e., CPTs).
 
 = Why it exists =
 
 Because ThemeForest continues to push out themes with a crap-ton of features in their themes that all disappear when an unsuspecting user changes themes.
+
+= Other uses =
+
+* shortcodes
+* some scripts/styles
+* post thumbnails
+* analytics scripts
+* custom fields
+* dashboard styles
 
 == Installation ==
 
 1. Upload contents of the directory to /wp-content/plugins/ (or use the automatic installer)
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Paste a function or whole crap-ton of functions into theme-functions.php. If you're doing this, you should be someone who knows what the flip you're doing.
-1. No cowboy coding, people.
+1. Look for Line 73 to see where you're supposed to be looking in the file.
+1. Stop cowboy coding, people.
 
 == Frequently Asked Questions ==
 
