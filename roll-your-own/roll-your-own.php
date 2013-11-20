@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Theme Functions Plugin
+Plugin Name: Roll Your Own
 Plugin URI: http://www.petersenmediagroup.com/plugins/
 Description: Adds a theme-dependent area to add functions that must be
 preserved if the theme is changed (i.e., CPTs).
@@ -39,13 +39,13 @@ Author URI: http://www.petersenmediagroup.com
 */
 
 // Start up the engine
-class Theme_Functions_Plugin
+class Roll_Your_Own
 {
 
 	/**
 	 * Static property to hold the singleton instance
 	 *
-	 * @return Theme_Functions_Plugin
+	 * @return Roll_Your_Own
 	 */
 	static $instance = false;
 
@@ -53,7 +53,7 @@ class Theme_Functions_Plugin
 	 * If an instance exists, this returns it.  If not, it creates one and
 	 * returns it.
 	 *
-	 * @return Theme_Functions_Plugin
+	 * @return Roll_Your_Own
 	 */
 
 	public static function getInstance() {
@@ -65,7 +65,7 @@ class Theme_Functions_Plugin
 	/**
 	 * This is the constructor
 	 *
-	 * @return Theme_Functions_Plugin
+	 * @return Roll_Your_Own
 	 */
 	private function __construct() {
 
@@ -87,4 +87,4 @@ class Theme_Functions_Plugin
 }
 
 // Instantiate the class
-$Theme_Functions_Plugin = Theme_Functions_Plugin::getInstance();
+$Roll_Your_Own = Roll_Your_Own::getInstance();

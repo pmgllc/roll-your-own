@@ -1,7 +1,7 @@
-=== Theme Functions Plugin ===
+=== Roll Your Own ===
 Contributors: PMGLLC, peterdog
 Donate link: https://www.petersenmediagroup.com/contribute
-Tags: functions, theme functions, functions.php, ThemeForest, cowboy coding, CPT, CPTs, custom post types
+Tags: functions, theme functions, roll your own plugin, functions.php, ThemeForest, cowboy coding, CPT, CPTs, custom post types
 Requires at least: 3.4.2
 Tested up to: 3.8 alpha
 Stable tag: 1.0.0
